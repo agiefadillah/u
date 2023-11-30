@@ -1,0 +1,17 @@
+Contoh Buat Baca APIs
+[query]=[value]
+bored-api.appbrewery.com/endpoint?query=value&query2=value
+
+[filter]?[type]=[education]
+https://bored-api.appbrewery.com/filter?type=education
+
+Kek lebih spesifik
+https://bored-api.appbrewery.com/activity/3943506
+
+JSON
+JS Object -> JSON
+const jsonData = JSON.stringfy(data);
+Pengemasan datar, bikin JavaScript jadi string yang menyimpan semua
+
+JSON -> JS Object 
+const data = JSON.parse(jsonData);
